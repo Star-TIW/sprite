@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin:0; min-height:100vh; background:#080808; color:white; font-family:Arial,sans-serif; display:flex; justify-content:center; align-items:center; }
+.container { text-align:center; width:min(900px,90%); }
+h1 { font-size:48px; }
+.button { display:inline-block; margin-top:20px; padding:14px 28px; background:#2563eb; color:white; text-decoration:none; border-radius:12px; font-weight:bold; }
+.button:hover { opacity:.85; }
+#sprites { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:15px; margin-top:30px; }
